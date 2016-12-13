@@ -11,5 +11,5 @@
 #   bouzuya <m@bouzuya.net>
 
 module.exports = (robot) ->
-  robot.respond /unchi/i, (msg) ->
-    msg.send 'unchi'
+  robot.respond /(unchi|うんち)/i, (msg) ->
+    msg.send ':poop:'
